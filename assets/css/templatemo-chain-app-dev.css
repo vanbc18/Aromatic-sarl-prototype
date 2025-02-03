@@ -1053,10 +1053,10 @@ Services Style
   height: 50vh; 
 }
 
-@media screen and (min-width: 767px) and (max-width: 991px) {
+@media screen and (min-width: 767px) and (max-width: 1024px) {
   .service-item {
     width: 21vw;
-    max-height: 35vh !important;
+    max-height: 28vh;
   }
 
   .service-item h4:first-child {
@@ -1065,7 +1065,7 @@ Services Style
   }
 
   #services {
-    margin: 0 !important;
+    margin: 0 0 100px 0 !important;
   }
 }
 
